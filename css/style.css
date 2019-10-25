@@ -1,6 +1,6 @@
 /* HTML */
 html {
-    background-color: 
+
 }
 
 /* BODY */
@@ -10,12 +10,48 @@ body {
 
 /* HEADER */
 header {
-
+    display: flex;
+    background:grey;
+    height: 6rem;
+    align-items: center;
 }
+
+header nav {
+    display: flex;
+}
+
+header li {
+    list-style-type: none;
+    margin-left: 5rem;
+}
+
+header i {
+    margin: 1rem;
+}
+
+aside {
+    background: black;
+    color: white;
+    display: flex;
+    width: 40%;
+    height: 80vh;
+    position:absolute;
+}
+
+aside div {
+    display: flex;
+    flex-direction: column; 
+}
+
+aside li {
+    list-style-type: none;
+    margin: 1rem 6rem;
+}
+
 
 /* MAIN */
 main {
-
+    margin: 0 10%;
 }
 
 /* FOOTER */
