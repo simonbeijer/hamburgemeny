@@ -3,6 +3,4 @@
 Medieinstitutet
 ================
 
-En hamburgemeny 
-
-(xxx)[xxx]
+En hamburgemeny
